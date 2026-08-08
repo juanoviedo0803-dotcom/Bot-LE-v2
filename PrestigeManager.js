@@ -34,7 +34,7 @@ class PrestigeManager {
 
     console.log(`⛏️ Pico nivel ${level}`)
 
-    if (level >= 300 && !this.triggered) {
+    if (level >= 450 && !this.triggered) {
       this.triggered = true
 
       console.log(
